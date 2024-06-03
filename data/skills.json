@@ -1,0 +1,48 @@
+[
+  {
+    "grouping": "Languages, Operating Systems & Tools",
+    "skills": [
+      "Python",
+      "C",
+      "Cplusplus",
+      "javascript",
+      "Julia",
+      "Matlab",
+      "Rust",
+      "linux",
+      "FreeRTOS",
+      "bash",
+      "git"
+    ]
+  },
+  {
+    "grouping": "Platform Development & Administration",
+    "skills": ["Django", "Apache", "EC2"]
+  },
+  {
+    "grouping": "Architecture",
+    "skills": [
+      {
+        "name": "IP Networking",
+        "icon": "bash"
+      },
+      {
+        "name": "ROS Robot Operating System",
+        "icon": "bash"
+      },
+      {
+        "name": "RESTful APIs",
+        "icon": "bash"
+      }
+    ]
+  },
+  {
+    "grouping": "Containers & Cloud",
+    "skills": [
+      {
+        "name": "Docker",
+        "link": "https://docker.com"
+      }
+    ]
+  }
+]
