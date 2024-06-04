@@ -1,156 +1,148 @@
+local_backend: true
 backend:
   name: github
   repo: harshul-s/harshul-s.github.io
   branch: master
-  # cms_label_prefix: netlify-cms/
-  site_domain: harshul-s.github.io
+  # base_url: harshul-s.github.io
+  cms_label_prefix: netlify-cms/
+  site_domain: cms.netlify.com
 
-locale: "zh_Hans"
+locale: "en_US"
 media_folder: "static/media"
 public_folder: "/media"
 
 collections:
   - name: "Blog"
-    label: "博客"
+    label: "Blog"
     folder: "content/blog"
     create: true
     fields:
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "日期", name: "date", widget: "datetime" }
-      - { label: "简介", name: "description", widget: "string" }
-      - label: "分类"
+      - {name: "title", widget: "string" }
+      - { name: "date", widget: "datetime" }
+      - { name: "description", widget: "string" }
+      -
         name: "taxonomies"
         widget: "object"
         fields:
-          - { label: "标签", name: "tags", widget: "list", required: false }
-      - label: "扩展"
+          - { name: "tags", widget: "list", required: false }
+      -
         name: "extra"
         widget: "object"
         fields:
-          - { label: "精选", name: "featured", widget: "boolean", required: false }
-          - { label: "项目/网址链接", name: "link", widget: "string" }
-          - { label: "项目图片", name: image, widget: "image" }
-      - { label: "正文", name: "body", widget: "markdown" }
+          - { name: "featured", widget: "boolean", required: false }
+          - { name: "link", widget: "string" }
+          - { name: image, widget: "image" }
+      - { name: "body", widget: "markdown" }
 
   - name: "Projects"
-    label: "开源项目"
+    label: "Projects"
     folder: "content/projects"
     create: true
     fields:
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "日期", name: "date", widget: "datetime" }
-      - { label: "简介", name: "description", widget: "string" }
-      - label: "分类"
+      - {  name: "title", widget: "string" }
+      - {  name: "date", widget: "datetime" }
+      - {  name: "description", widget: "string" }
+      - 
         name: "taxonomies"
         widget: "object"
         fields:
-          - { label: "标签", name: "tags", widget: "list", required: false }
-      - label: "扩展"
+          - {  name: "tags", widget: "list", required: false }
+      - 
         name: "extra"
         widget: "object"
         fields:
-          - { label: "精选", name: "featured", widget: "boolean", required: false }
-          - { label: "项目/网址链接", name: "link", widget: "string" }
-          - { label: "项目图片", name: image, widget: "image" }
-      - { label: "正文", name: "body", widget: "markdown" }
+          - {  name: "featured", widget: "boolean", required: false }
+          - {  name: "link", widget: "string" }
+          - {  name: image, widget: "image" }
+      - {  name: "body", widget: "markdown" }
 
   - name: "Publications"
-    label: "出版物"
+    label: "Publications"
     folder: "content/publications"
     create: true
     fields:
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "日期", name: "date", widget: "datetime" }
-      - { label: "简介", name: "description", widget: "string" }
-      - label: "分类"
+      - {  name: "title", widget: "string" }
+      - {  name: "date", widget: "datetime" }
+      - {  name: "description", widget: "string" }
+      - 
         name: "taxonomies"
         widget: "object"
         fields:
-          - { label: "标签", name: "tags", widget: "list", required: false }
-      - label: "扩展"
+          - {  name: "tags", widget: "list", required: false }
+      - 
         name: "extra"
         widget: "object"
         fields:
-          - { label: "精选", name: "featured", widget: "boolean", required: false }
-          - { label: "引用", name: "bibtex", widget: "file" }
-          - { label: "项目/网址链接", name: "link", widget: "string" }
-          - { label: "项目图片", name: image, widget: "image" }
-      - { label: "正文", name: "body", widget: "markdown" }
+          - {  name: "featured", widget: "boolean", required: false }
+          - {  name: "bibtex", widget: "file" }
+          - {  name: "link", widget: "string" }
+          - {  name: image, widget: "image" }
+      - {  name: "body", widget: "markdown" }
 
   - name: "settings"
-    label: "设置"
+    label: "Settings"
     delete: false
     editor:
       preview: false
     files:
       - name: "general"
-        label: "网站设置"
+        label: "general"
         file: "config.toml"
         extension: toml
         description: "网站设置"
         fields:
-          - { label: "标题", name: "title", widget: "string" }
+          - { name: "title", widget: "string" }
           - name: "extra"
-            label: "参数"
             widget: "object"
             fields:
-              - { label: "姓氏", name: "first_name", widget: "string" }
-              - { label: "姓名", name: "last_name", widget: "string" }
-              - { label: "地址", name: "address", widget: "string" }
-              - { label: "照片", name: "avatar", widget: "image" }
-              - { label: "图标", name: "favicon", widget: "image" }
-              - { label: "邮箱", name: "email", widget: "string" }
-              - { label: "电话号码", name: "phone", widget: "string" }
+              - { name: "first_name", widget: "string" }
+              - { name: "last_name", widget: "string" }
+              - { name: "address", widget: "string" }
+              - { name: "avatar", widget: "image" }
+              - { name: "favicon", widget: "image" }
+              - { name: "email", widget: "string" }
+              - { name: "phone", widget: "string" }
               - {
-                  label: "渲染数学公式",
                   name: "katex",
                   widget: "boolean",
                   required: false,
                 }
               - {
-                  label: "显示关于",
                   name: "show_about",
                   widget: "boolean",
                   required: false,
                 }
               - {
-                  label: "显示技能",
                   name: "show_skills",
                   widget: "boolean",
                   required: false,
                 }
               - {
-                  label: "显示开源项目",
                   name: "show_projects",
                   widget: "boolean",
                   required: false,
                 }
               - {
-                  label: "显示开源贡献",
                   name: "show_opensource",
                   widget: "boolean",
                   required: false,
                 }
               - {
-                  label: "显示出版物",
                   name: "show_publications",
                   widget: "boolean",
                   required: false,
                 }
               - {
-                  label: "显示工作经历",
                   name: "show_experience",
                   widget: "boolean",
                   required: false,
                 }
               - {
-                  label: "显示教育经历",
                   name: "show_education",
                   widget: "boolean",
                   required: false,
                 }
               - {
-                  label: "显示博客",
                   name: "show_blog",
                   widget: "boolean",
                   required: false,
