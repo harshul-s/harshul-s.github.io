@@ -1,0 +1,149 @@
+local_backend: true
+backend:
+  name: github
+  repo: harshul-s/harshul-s.github.io
+  branch: master
+  # base_url: harshul-s.github.io
+  cms_label_prefix: netlify-cms/
+  site_domain: cms.netlify.com
+
+locale: "en_US"
+media_folder: "static/media"
+public_folder: "/media"
+
+collections:
+  - name: "Blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    fields:
+      - {name: "title", widget: "string" }
+      - { name: "date", widget: "datetime" }
+      - { name: "description", widget: "string" }
+      -
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - { name: "tags", widget: "list", required: false }
+      -
+        name: "extra"
+        widget: "object"
+        fields:
+          - { name: "featured", widget: "boolean", required: false }
+          - { name: "link", widget: "string" }
+          - { name: image, widget: "image" }
+      - { name: "body", widget: "markdown" }
+
+  - name: "Projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    fields:
+      - {  name: "title", widget: "string" }
+      - {  name: "date", widget: "datetime" }
+      - {  name: "description", widget: "string" }
+      - 
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - {  name: "tags", widget: "list", required: false }
+      - 
+        name: "extra"
+        widget: "object"
+        fields:
+          - {  name: "featured", widget: "boolean", required: false }
+          - {  name: "link", widget: "string" }
+          - {  name: image, widget: "image" }
+      - {  name: "body", widget: "markdown" }
+
+  - name: "Publications"
+    label: "Publications"
+    folder: "content/publications"
+    create: true
+    fields:
+      - {  name: "title", widget: "string" }
+      - {  name: "date", widget: "datetime" }
+      - {  name: "description", widget: "string" }
+      - 
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - {  name: "tags", widget: "list", required: false }
+      - 
+        name: "extra"
+        widget: "object"
+        fields:
+          - {  name: "featured", widget: "boolean", required: false }
+          - {  name: "bibtex", widget: "file" }
+          - {  name: "link", widget: "string" }
+          - {  name: image, widget: "image" }
+      - {  name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Settings"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "general"
+        label: "general"
+        file: "config.toml"
+        extension: toml
+        description: "网站设置"
+        fields:
+          - { name: "title", widget: "string" }
+          - name: "extra"
+            widget: "object"
+            fields:
+              - { name: "first_name", widget: "string" }
+              - { name: "last_name", widget: "string" }
+              - { name: "address", widget: "string" }
+              - { name: "avatar", widget: "image" }
+              - { name: "favicon", widget: "image" }
+              - { name: "email", widget: "string" }
+              - { name: "phone", widget: "string" }
+              - {
+                  name: "katex",
+                  widget: "boolean",
+                  required: false,
+                }
+              - {
+                  name: "show_about",
+                  widget: "boolean",
+                  required: false,
+                }
+              - {
+                  name: "show_skills",
+                  widget: "boolean",
+                  required: false,
+                }
+              - {
+                  name: "show_projects",
+                  widget: "boolean",
+                  required: false,
+                }
+              - {
+                  name: "show_opensource",
+                  widget: "boolean",
+                  required: false,
+                }
+              - {
+                  name: "show_publications",
+                  widget: "boolean",
+                  required: false,
+                }
+              - {
+                  name: "show_experience",
+                  widget: "boolean",
+                  required: false,
+                }
+              - {
+                  name: "show_education",
+                  widget: "boolean",
+                  required: false,
+                }
+              - {
+                  name: "show_blog",
+                  widget: "boolean",
+                  required: false,
+                }
