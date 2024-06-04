@@ -2,7 +2,7 @@ backend:
   name: github
   repo: harshul-s/harshul-s.github.io
   branch: master
-  cms_label_prefix: netlify-cms/
+  # cms_label_prefix: netlify-cms/
   site_domain: harshul-s.github.io
 
 locale: "zh_Hans"
