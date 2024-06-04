@@ -1,9 +1,9 @@
 backend:
   name: github
   repo: harshul-s/harshul-s.github.io
-  # branch: master
-  # cms_label_prefix: netlify-cms/
-  # site_domain: DOMAIN.netlify.com
+  branch: master
+  cms_label_prefix: netlify-cms/
+  site_domain: cms.netlify.com
 
 locale: "zh_Hans"
 media_folder: "static/media"
@@ -35,28 +35,6 @@ collections:
   - name: "Projects"
     label: "开源项目"
     folder: "content/projects"
-    create: true
-    fields:
-      - { label: "标题", name: "title", widget: "string" }
-      - { label: "日期", name: "date", widget: "datetime" }
-      - { label: "简介", name: "description", widget: "string" }
-      - label: "分类"
-        name: "taxonomies"
-        widget: "object"
-        fields:
-          - { label: "标签", name: "tags", widget: "list", required: false }
-      - label: "扩展"
-        name: "extra"
-        widget: "object"
-        fields:
-          - { label: "精选", name: "featured", widget: "boolean", required: false }
-          - { label: "项目/网址链接", name: "link", widget: "string" }
-          - { label: "项目图片", name: image, widget: "image" }
-      - { label: "正文", name: "body", widget: "markdown" }
-
-  - name: "Contributions"
-    label: "开源贡献"
-    folder: "content/opensource"
     create: true
     fields:
       - { label: "标题", name: "title", widget: "string" }
