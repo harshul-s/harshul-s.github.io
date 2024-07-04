@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - SQL</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/sql/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-03-23T05:11:14.310+00:00</updated>
+    <id>https://harshul-s.github.io/tags/sql/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Webdevelopment Project - Appétit</title>
+        <published>2023-03-23T05:11:14.310+00:00</published>
+        <updated>2023-03-23T05:11:14.310+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/webdevelopment-project-appetit/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/webdevelopment-project-appetit/</id>
+        
+        <content type="html">&lt;h1 id=&quot;appetit&quot;&gt;Appétit&lt;&#x2F;h1&gt;
+&lt;h4 id=&quot;technologies&quot;&gt;T﻿echnologies:&lt;&#x2F;h4&gt;
+&lt;p&gt;Led the backend&#x2F;database&#x2F;api development which leveraged Django, MySql, Google Cloud Platform (Oauth+Maps API)+ AWS for deployment. Enforced security practices to avoid SQL injection3  and unauthorised access.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;media&#x2F;screenshot-2024-07-04-at-1.20.39-pm.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;features&quot;&gt;F﻿eatures:&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;G﻿eolocation UI for restaurants to advertise an input locations, option to sort database queries based on geographical distance from the user &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;U﻿sed a library to create an animated page turning interface to &#x27;create a menu&#x27; of restaurants&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;U﻿sers can follow restaurants and other users &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ability to leave both formal reviews and &#x27;live tweet&#x27; using ajax&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;media&#x2F;screenshot-2024-07-04-at-1.26.01-pm.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

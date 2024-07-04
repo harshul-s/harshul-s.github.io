@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - Optimal Control</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/optimal-control/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-04-30T09:34:23.953+00:00</updated>
+    <id>https://harshul-s.github.io/tags/optimal-control/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Optimal Control and Reinforcement Learning Final Project</title>
+        <published>2024-04-30T09:34:23.953+00:00</published>
+        <updated>2024-04-30T09:34:23.953+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/optimal-control-and-reinforcement-learning-final-project/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/optimal-control-and-reinforcement-learning-final-project/</id>
+        
+        <content type="html">&lt;p&gt;P﻿air Programmed a visualiser using MeshCat animation framework&lt;&#x2F;p&gt;
+&lt;p&gt;F﻿ormulated and Solved a Non-convex problem for N many quadrotors transporting a load using quaternion dynamics&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

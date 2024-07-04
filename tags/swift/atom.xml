@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - Swift</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/swift/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-03T08:57:04.070+00:00</updated>
+    <id>https://harshul-s.github.io/tags/swift/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Senior ECE Capstone - CleanAR</title>
+        <published>2024-05-03T08:57:04.070+00:00</published>
+        <updated>2024-05-03T08:57:04.070+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/senior-capstone-cleanar/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/senior-capstone-cleanar/</id>
+        
+        <content type="html">&lt;h4 id=&quot;overview&quot;&gt;O﻿verview:&lt;&#x2F;h4&gt;
+&lt;p&gt;F﻿ollowed the end to end design process utilizing systems engineering practices and project management strategies as a team of 3 to build the end product over 12 weeks. We created an AR App that tracks vacuum coverage over a room along with integrating with a separate compute module on an NVIDIA Jetson running computer vision to provide feedback to the user on the actual cleanliness of the area just traversed. &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;docs&#x2F;18500poster.pdf&quot;&gt;P﻿roject Poster&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;docs&#x2F;18500report.pdf&quot;&gt;F﻿inal Design Report&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Cj9TIeOdmxI&quot;&gt;P﻿roject Demo Video&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

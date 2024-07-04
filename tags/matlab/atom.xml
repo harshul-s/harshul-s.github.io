@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - MatLab</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/matlab/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-11-16T08:26:01.491+00:00</updated>
+    <id>https://harshul-s.github.io/tags/matlab/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Jenga with a Robotic Arm</title>
+        <published>2023-11-16T08:26:01.491+00:00</published>
+        <updated>2023-11-16T08:26:01.491+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/jenga-with-a-robotic-arm/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/jenga-with-a-robotic-arm/</id>
+        
+        <content type="html">&lt;p&gt;T﻿eam Capstone Project to build 6 layers of a Jenga tower within certain bounds within 2 minutes &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;B﻿uilt a robot class to interface with Hebi motor drivers. &lt;&#x2F;li&gt;
+&lt;li&gt;Implemented forward and inverse kinematics using DH transformations.&lt;&#x2F;li&gt;
+&lt;li&gt;I﻿mplemented Splinar interpolation between waypoints for trajectory tracking&lt;&#x2F;li&gt;
+&lt;li&gt;E﻿xperimented with Position, velocity and torque control&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;E﻿explored tradeoffs in speed&#x2F;accuracy and commanding position and velocities vs pure positions along with working around torque and joint limits for the robot. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;extensions&quot;&gt;Ex﻿tensions:&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing some form of force feedback to allow the robot&#x27;s state to also include the force that is being applied by the jenga block.&lt;&#x2F;li&gt;
+&lt;li&gt;Introducing vision to avoid continual re-turning of motor gains to successfully achieve this task while dead reckoning&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

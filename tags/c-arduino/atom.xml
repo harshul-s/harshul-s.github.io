@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - C&#x2F;Arduino</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/c-arduino/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-01T09:17:34.193+00:00</updated>
+    <id>https://harshul-s.github.io/tags/c-arduino/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Robotics Capstone - Autonomous&#x2F;Unmanned Garden Rover</title>
+        <published>2024-05-01T09:17:34.193+00:00</published>
+        <updated>2024-05-01T09:17:34.193+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/robotics-capstone-autonomous-unmanned-garden-rover/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/robotics-capstone-autonomous-unmanned-garden-rover/</id>
+        
+        <content type="html">&lt;p&gt;W﻿orked over a year to develop a semi-autonomous gardening robot that can maintain a hobbyist garden. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;system-decomposition&quot;&gt;S﻿ystem Decomposition:&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;E﻿mbedded Systems&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;P﻿ump system and motor driver&lt;&#x2F;li&gt;
+&lt;li&gt;L﻿inear Actuator and motor driver to enable potentiometer based control&lt;&#x2F;li&gt;
+&lt;li&gt;S﻿oil Sensor and RS485 bus code to parse soil data &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;D﻿riveTrain&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;C﻿ustom Drivetrain that can handle ROS twist commands &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;V﻿ision&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;F﻿isheye camera for fiducial detection (fiducials assigned to each garden plant) &lt;&#x2F;li&gt;
+&lt;li&gt;L﻿IDAR for SLAM &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Web Server&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;E﻿C2 Django Webapp endpoint for telemetry and user facing app&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;T﻿ele-operation:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;media&#x2F;teleop.jpg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - Python</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/python/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-10-19T08:11:19.700+00:00</updated>
+    <id>https://harshul-s.github.io/tags/python/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Video CDN &#x2F; Network Routing</title>
+        <published>2023-10-19T08:11:19.700+00:00</published>
+        <updated>2023-10-19T08:11:19.700+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/video-cdn-network-routing/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/video-cdn-network-routing/</id>
+        
+        <content type="html">&lt;h2 id=&quot;cdn&quot;&gt;C﻿DN:&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;D﻿designed Server Model (thread based server) to handle video streaming requests (Can Serve 1000+ clients)&lt;&#x2F;li&gt;
+&lt;li&gt;H﻿ttp compliant error codes and partial content segmentation based on specified maximum segment size&lt;&#x2F;li&gt;
+&lt;li&gt;F﻿iletype agnostic implementation&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;routing&quot;&gt;R﻿outing:&lt;&#x2F;h2&gt;
+&lt;p&gt;•Designed custom packet and heartbeat messaging for link state advertisement&lt;&#x2F;p&gt;
+&lt;p&gt;•Can run on any machine to act as a node in the network&lt;&#x2F;p&gt;
+&lt;p&gt;•Config parsing and online network updates&lt;&#x2F;p&gt;
+&lt;p&gt;• Every node can output the whole network topology when queried&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multi Agent PathFinding (MAPF)</title>
+        <published>2023-05-08T07:53:39.073+00:00</published>
+        <updated>2023-05-08T07:53:39.073+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/multi-agent-pathfinding-mapf/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/multi-agent-pathfinding-mapf/</id>
+        
+        <content type="html">&lt;p&gt;We w﻿orked to Implement Conflict Based Search to compare and contrast it&#x27;s performance and completeness in a simulation with multiple agents representing autonomous vehicles being controlled as part of some centralized fleet. &lt;&#x2F;p&gt;
+&lt;p&gt;We found that the structure of searching a conflict tree led to exponential time complexity impacting the performance of the planner significantly. However, we were able to structure scenarios and orderings of agents such that a prioritized planner would fail to find a path and CBS  would be capable of finding a solution.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Webdevelopment Project - Appétit</title>
+        <published>2023-03-23T05:11:14.310+00:00</published>
+        <updated>2023-03-23T05:11:14.310+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/webdevelopment-project-appetit/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/webdevelopment-project-appetit/</id>
+        
+        <content type="html">&lt;h1 id=&quot;appetit&quot;&gt;Appétit&lt;&#x2F;h1&gt;
+&lt;h4 id=&quot;technologies&quot;&gt;T﻿echnologies:&lt;&#x2F;h4&gt;
+&lt;p&gt;Led the backend&#x2F;database&#x2F;api development which leveraged Django, MySql, Google Cloud Platform (Oauth+Maps API)+ AWS for deployment. Enforced security practices to avoid SQL injection3  and unauthorised access.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;media&#x2F;screenshot-2024-07-04-at-1.20.39-pm.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;features&quot;&gt;F﻿eatures:&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;G﻿eolocation UI for restaurants to advertise an input locations, option to sort database queries based on geographical distance from the user &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;U﻿sed a library to create an animated page turning interface to &#x27;create a menu&#x27; of restaurants&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;U﻿sers can follow restaurants and other users &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ability to leave both formal reviews and &#x27;live tweet&#x27; using ajax&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;media&#x2F;screenshot-2024-07-04-at-1.26.01-pm.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction to Robotics Projects</title>
+        <published>2022-05-10T04:17:49.831+00:00</published>
+        <updated>2022-05-10T04:17:49.831+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/introduction-to-robotics-projects/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/introduction-to-robotics-projects/</id>
+        
+        <content type="html">&lt;p&gt;W﻿orked with Lego hardware and RasPi&#x2F;Python Based software to solve a series of labs.&lt;&#x2F;p&gt;
+&lt;p&gt;N﻿otable Labs:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;﻿USAR  Final Project (Unmanned Search And Rescue): Given the task ahead of time with unknown terrain we designed an unmanned tele-operated robot with active illumination, a webcam to recognize and decode fiducials, and a hook based platform to &#x27;rescue&#x27; a lego minifigure.&lt;&#x2F;li&gt;
+&lt;li&gt;A﻿* Path Planning: Given a map configuration design a planner to generate a trajectory that the robot is able to follow and track in the real world using odometry with low latency and varying map resolution.&lt;&#x2F;li&gt;
+&lt;li&gt;I﻿nverted Pendulum: Bridging the gap in simulated PID control vs PID control on real motors to stabilise an inverted pendulum&lt;&#x2F;li&gt;
+&lt;li&gt;D﻿riveTrain RR arm: Performed inverse kinematics with an RR arm using only one motor&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>15-112 Term Project Retro Racer</title>
+        <published>2020-12-16T15:00:30.183+00:00</published>
+        <updated>2020-12-16T15:00:30.183+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/retro-racer/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/retro-racer/</id>
+        
+        <content type="html">&lt;h3 id=&quot;retro-racer&quot;&gt;Retro Racer&lt;&#x2F;h3&gt;
+&lt;p&gt;Top down 2d Arcade racer with some added &#x27;realism&#x27;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Built in an MVC Graphics framework using TKinter&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Implemented custom level editor and offline save&#x2F;loading of stages&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;&#x2F;media&#x2F;editor-112.png&quot; alt=&quot;level editor&quot; &#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Designed custom graphing interface to visualise race telemetry data &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;&#x2F;media&#x2F;graph-112.png&quot; alt=&quot;graph showcasing the latitudinal tire forces over the track&quot; &#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;S﻿imulated the Pacejka tire model&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

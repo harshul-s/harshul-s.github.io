@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - Robotics</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/robotics/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-01T09:17:34.193+00:00</updated>
+    <id>https://harshul-s.github.io/tags/robotics/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Robotics Capstone - Autonomous&#x2F;Unmanned Garden Rover</title>
+        <published>2024-05-01T09:17:34.193+00:00</published>
+        <updated>2024-05-01T09:17:34.193+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/robotics-capstone-autonomous-unmanned-garden-rover/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/robotics-capstone-autonomous-unmanned-garden-rover/</id>
+        
+        <content type="html">&lt;p&gt;W﻿orked over a year to develop a semi-autonomous gardening robot that can maintain a hobbyist garden. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;system-decomposition&quot;&gt;S﻿ystem Decomposition:&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;E﻿mbedded Systems&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;P﻿ump system and motor driver&lt;&#x2F;li&gt;
+&lt;li&gt;L﻿inear Actuator and motor driver to enable potentiometer based control&lt;&#x2F;li&gt;
+&lt;li&gt;S﻿oil Sensor and RS485 bus code to parse soil data &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;D﻿riveTrain&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;C﻿ustom Drivetrain that can handle ROS twist commands &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;V﻿ision&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;F﻿isheye camera for fiducial detection (fiducials assigned to each garden plant) &lt;&#x2F;li&gt;
+&lt;li&gt;L﻿IDAR for SLAM &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Web Server&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;E﻿C2 Django Webapp endpoint for telemetry and user facing app&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;T﻿ele-operation:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;media&#x2F;teleop.jpg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Optimal Control and Reinforcement Learning Final Project</title>
+        <published>2024-04-30T09:34:23.953+00:00</published>
+        <updated>2024-04-30T09:34:23.953+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/optimal-control-and-reinforcement-learning-final-project/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/optimal-control-and-reinforcement-learning-final-project/</id>
+        
+        <content type="html">&lt;p&gt;P﻿air Programmed a visualiser using MeshCat animation framework&lt;&#x2F;p&gt;
+&lt;p&gt;F﻿ormulated and Solved a Non-convex problem for N many quadrotors transporting a load using quaternion dynamics&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Jenga with a Robotic Arm</title>
+        <published>2023-11-16T08:26:01.491+00:00</published>
+        <updated>2023-11-16T08:26:01.491+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/jenga-with-a-robotic-arm/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/jenga-with-a-robotic-arm/</id>
+        
+        <content type="html">&lt;p&gt;T﻿eam Capstone Project to build 6 layers of a Jenga tower within certain bounds within 2 minutes &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;B﻿uilt a robot class to interface with Hebi motor drivers. &lt;&#x2F;li&gt;
+&lt;li&gt;Implemented forward and inverse kinematics using DH transformations.&lt;&#x2F;li&gt;
+&lt;li&gt;I﻿mplemented Splinar interpolation between waypoints for trajectory tracking&lt;&#x2F;li&gt;
+&lt;li&gt;E﻿xperimented with Position, velocity and torque control&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;E﻿explored tradeoffs in speed&#x2F;accuracy and commanding position and velocities vs pure positions along with working around torque and joint limits for the robot. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;extensions&quot;&gt;Ex﻿tensions:&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Introducing some form of force feedback to allow the robot&#x27;s state to also include the force that is being applied by the jenga block.&lt;&#x2F;li&gt;
+&lt;li&gt;Introducing vision to avoid continual re-turning of motor gains to successfully achieve this task while dead reckoning&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multi Agent PathFinding (MAPF)</title>
+        <published>2023-05-08T07:53:39.073+00:00</published>
+        <updated>2023-05-08T07:53:39.073+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/multi-agent-pathfinding-mapf/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/multi-agent-pathfinding-mapf/</id>
+        
+        <content type="html">&lt;p&gt;We w﻿orked to Implement Conflict Based Search to compare and contrast it&#x27;s performance and completeness in a simulation with multiple agents representing autonomous vehicles being controlled as part of some centralized fleet. &lt;&#x2F;p&gt;
+&lt;p&gt;We found that the structure of searching a conflict tree led to exponential time complexity impacting the performance of the planner significantly. However, we were able to structure scenarios and orderings of agents such that a prioritized planner would fail to find a path and CBS  would be capable of finding a solution.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction to Robotics Projects</title>
+        <published>2022-05-10T04:17:49.831+00:00</published>
+        <updated>2022-05-10T04:17:49.831+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/introduction-to-robotics-projects/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/introduction-to-robotics-projects/</id>
+        
+        <content type="html">&lt;p&gt;W﻿orked with Lego hardware and RasPi&#x2F;Python Based software to solve a series of labs.&lt;&#x2F;p&gt;
+&lt;p&gt;N﻿otable Labs:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;﻿USAR  Final Project (Unmanned Search And Rescue): Given the task ahead of time with unknown terrain we designed an unmanned tele-operated robot with active illumination, a webcam to recognize and decode fiducials, and a hook based platform to &#x27;rescue&#x27; a lego minifigure.&lt;&#x2F;li&gt;
+&lt;li&gt;A﻿* Path Planning: Given a map configuration design a planner to generate a trajectory that the robot is able to follow and track in the real world using odometry with low latency and varying map resolution.&lt;&#x2F;li&gt;
+&lt;li&gt;I﻿nverted Pendulum: Bridging the gap in simulated PID control vs PID control on real motors to stabilise an inverted pendulum&lt;&#x2F;li&gt;
+&lt;li&gt;D﻿riveTrain RR arm: Performed inverse kinematics with an RR arm using only one motor&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - MVC</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/mvc/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-12-16T15:00:30.183+00:00</updated>
+    <id>https://harshul-s.github.io/tags/mvc/atom.xml</id>
+    <entry xml:lang="en">
+        <title>15-112 Term Project Retro Racer</title>
+        <published>2020-12-16T15:00:30.183+00:00</published>
+        <updated>2020-12-16T15:00:30.183+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/retro-racer/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/retro-racer/</id>
+        
+        <content type="html">&lt;h3 id=&quot;retro-racer&quot;&gt;Retro Racer&lt;&#x2F;h3&gt;
+&lt;p&gt;Top down 2d Arcade racer with some added &#x27;realism&#x27;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Built in an MVC Graphics framework using TKinter&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Implemented custom level editor and offline save&#x2F;loading of stages&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;&#x2F;media&#x2F;editor-112.png&quot; alt=&quot;level editor&quot; &#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Designed custom graphing interface to visualise race telemetry data &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;&#x2F;media&#x2F;graph-112.png&quot; alt=&quot;graph showcasing the latitudinal tire forces over the track&quot; &#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;S﻿imulated the Pacejka tire model&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

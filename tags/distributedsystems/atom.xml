@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>portfolio - DistributedSystems</title>
+    <subtitle>A clean resume theme</subtitle>
+    <link href="https://harshul-s.github.io/tags/distributedsystems/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://harshul-s.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-10-19T08:11:19.700+00:00</updated>
+    <id>https://harshul-s.github.io/tags/distributedsystems/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Video CDN &#x2F; Network Routing</title>
+        <published>2023-10-19T08:11:19.700+00:00</published>
+        <updated>2023-10-19T08:11:19.700+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://harshul-s.github.io/projects/video-cdn-network-routing/" type="text/html"/>
+        <id>https://harshul-s.github.io/projects/video-cdn-network-routing/</id>
+        
+        <content type="html">&lt;h2 id=&quot;cdn&quot;&gt;C﻿DN:&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;D﻿designed Server Model (thread based server) to handle video streaming requests (Can Serve 1000+ clients)&lt;&#x2F;li&gt;
+&lt;li&gt;H﻿ttp compliant error codes and partial content segmentation based on specified maximum segment size&lt;&#x2F;li&gt;
+&lt;li&gt;F﻿iletype agnostic implementation&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;routing&quot;&gt;R﻿outing:&lt;&#x2F;h2&gt;
+&lt;p&gt;•Designed custom packet and heartbeat messaging for link state advertisement&lt;&#x2F;p&gt;
+&lt;p&gt;•Can run on any machine to act as a node in the network&lt;&#x2F;p&gt;
+&lt;p&gt;•Config parsing and online network updates&lt;&#x2F;p&gt;
+&lt;p&gt;• Every node can output the whole network topology when queried&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
