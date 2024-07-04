@@ -9,7 +9,7 @@ taxonomies:
     - Python
 extra:
   image: /media/screenshot-2024-07-04-at-3.56.01-pm.png
-  link: /media/16350.pdf
+  link: /docs/16350.pdf
 ---
 We w﻿orked to Implement Conflict Based Search to compare and contrast it's performance and completeness in a simulation with multiple agents representing autonomous vehicles being controlled as part of some centralized fleet. 
 

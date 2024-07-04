@@ -9,7 +9,7 @@ taxonomies:
     - Julia
     - Robotics
 extra:
-  link: /media/16_745_Paper.pdf
+  link: /docs/16_745_Paper.pdf
   image: /media/screenshot-2024-07-04-at-5.38.55-pm.png
   featured: true
 ---
